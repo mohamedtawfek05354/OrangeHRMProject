@@ -40,11 +40,6 @@ public class LoginTest extends BaseTest {
         lg.Assertion_logged_in();
 
     }
-//    @Test
-//    public void OpenaiTest() throws InterruptedException {
-//        // Define the question you want to ask
-//        String question = "what is AI?";
-//        String response=Openai_API_Connect(question);
-//    }
+
 
 }

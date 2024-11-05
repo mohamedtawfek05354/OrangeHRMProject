@@ -118,13 +118,5 @@ public class BaseTest {
         String[] line = CSVDataDriven.getSpecificLine(filePath, lineNumber);
         return new Object[][] { { line } };
     }
-    public String Openai_API_Connect(String question) {
-        try {
-            // Get a query from OpenAI API
-            return OpenaiAPI.GenerateAPIRequest(question);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return " ";
-    }
+
 }
