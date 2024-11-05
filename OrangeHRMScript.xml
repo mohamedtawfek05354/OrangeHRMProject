@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestScriptAuto" verbose="1" thread-count="3">
+    <test name="First Test">
+        <classes>
+            <class name="LoginTest.LoginTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Second Test">
+        <classes>
+            <class name="DirectoryTest.DirectoryTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Third Test">
+        <classes>
+            <class name="AdminTest.AdminTest">
+            </class>
+        </classes>
+    </test>
+</suite>

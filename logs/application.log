@@ -1,0 +1,19 @@
+2024-11-05 02:05:35 INFO  GetWebDriver:65 - Log file './logs/application.log' cleaned successfully.
+2024-11-05 02:05:35 DEBUG WebDriverManager:227 - Using WebDriverManager 5.9.2
+2024-11-05 02:05:35 DEBUG ResolutionCache:186 - Resolution chrome=130 in cache (valid until 02:37:56 05/11/2024 EET)
+2024-11-05 02:05:35 DEBUG ResolutionCache:186 - Resolution chrome130=130.0.6723.91 in cache (valid until 01:37:56 06/11/2024 EET)
+2024-11-05 02:05:35 INFO  WebDriverManager:1220 - Using chromedriver 130.0.6723.91 (resolved driver for Chrome 130)
+2024-11-05 02:05:35 DEBUG WebDriverManager:1179 - Driver chromedriver 130.0.6723.91 found in cache
+2024-11-05 02:05:35 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\130.0.6723.91\chromedriver.exe
+2024-11-05 02:05:35 INFO  GetWebDriver:16 - Launching Chrome browser
+2024-11-05 02:05:37 DEBUG GetWebDriver:48 - Browser window maximized
+2024-11-05 02:05:37 DEBUG GetWebDriver:59 - Implicit wait of 10 seconds set for all elements
+2024-11-05 02:05:37 INFO  GetWebDriver:43 - Website loaded successfully in normal mode for Chrome
+2024-11-05 02:05:41 DEBUG BaseTest:22 - Open login page to enter with invalid credential
+2024-11-05 02:05:41 DEBUG BaseTest:22 - Open login page to enter with invalid credential
+2024-11-05 02:05:41 INFO  BasePage:33 - You are in the login page. Expected title: 'Login', Actual title: 'Login'
+2024-11-05 02:05:41 INFO  BasePage:46 - You have entered the username and password
+2024-11-05 02:05:41 INFO  BaseTest:25 - The login with invalid credential
+2024-11-05 02:05:42 WARN  BasePage:54 - Invalid login attempt: Invalid credentials
+2024-11-05 02:05:42 INFO  BaseTest:96 - Recording stopped.
+2024-11-05 02:05:42 INFO  GetWebDriver:54 - Browser instance closed
