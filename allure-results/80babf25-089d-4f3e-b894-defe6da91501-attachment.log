@@ -1,0 +1,262 @@
+2024-11-20 01:58:57 INFO  GetWebDriver:65 - Log file './logs/application.log' cleaned successfully.
+2024-11-20 01:58:57 DEBUG WebDriverManager:227 - Using WebDriverManager 5.9.2
+2024-11-20 01:58:57 DEBUG ResolutionCache:186 - Resolution chrome=131 in cache (valid until 02:00:42 20/11/2024 EET)
+2024-11-20 01:58:57 DEBUG ResolutionCache:186 - Resolution chrome131=131.0.6778.85 in cache (valid until 01:00:42 21/11/2024 EET)
+2024-11-20 01:58:57 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-20 01:58:57 DEBUG WebDriverManager:1179 - Driver chromedriver 131.0.6778.85 found in cache
+2024-11-20 01:58:57 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-20 01:58:57 INFO  GetWebDriver:19 - Launching Chrome browser with mode: incognito
+2024-11-20 01:58:59 DEBUG GetWebDriver:54 - Browser window maximized
+2024-11-20 01:58:59 DEBUG GetWebDriver:59 - Implicit wait of 10 seconds set for all elements
+2024-11-20 01:58:59 INFO  GetWebDriver:49 - Website loaded successfully in normal mode for Chrome
+2024-11-20 01:59:01 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:03 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:03 DEBUG GetWebDriver:20 - Open login page to enter with invalid credential
+2024-11-20 01:59:03 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:03 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:03 DEBUG GetWebDriver:20 - Open login page to enter with invalid credential
+2024-11-20 01:59:03 INFO  BasePage:33 - You are in the login page. Expected title: 'Login', Actual title: 'Login'
+2024-11-20 01:59:03 INFO  BasePage:46 - You have entered the username and password
+2024-11-20 01:59:03 INFO  GetWebDriver:23 - The login with invalid credential
+2024-11-20 01:59:05 WARN  BasePage:54 - Invalid login attempt: Invalid credentials
+2024-11-20 01:59:05 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:05 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:05 DEBUG GetWebDriver:30 - Open login page
+2024-11-20 01:59:05 INFO  BasePage:33 - You are in the login page. Expected title: 'Login', Actual title: 'Login'
+2024-11-20 01:59:05 INFO  BasePage:46 - You have entered the username and password
+2024-11-20 01:59:05 INFO  GetWebDriver:33 - The login with valid credential
+2024-11-20 01:59:06 INFO  BasePage:62 - Successfully logged in, dashboard title: 'Dashboard'
+2024-11-20 01:59:06 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:06 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:06 INFO  GetWebDriver:99 - Recording stopped.
+2024-11-20 01:59:06 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:06 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:36 DEBUG ZipPackage:546 - Save core properties part
+2024-11-20 01:59:36 DEBUG ZipPackage:568 - Save content types part
+2024-11-20 01:59:37 DEBUG ZipPackage:572 - Save package relationships
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'docProps/app.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'docProps/core.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'xl/sharedStrings.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'xl/styles.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'xl/workbook.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'xl/worksheets/sheet1.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:568 - Save content types part
+2024-11-20 01:59:37 DEBUG ZipPackage:572 - Save package relationships
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'docProps/app.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'docProps/core.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'xl/sharedStrings.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'xl/styles.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'xl/workbook.xml'
+2024-11-20 01:59:37 DEBUG ZipPackage:586 - Save part 'xl/worksheets/sheet1.xml'
+2024-11-20 01:59:37 INFO  BasePage:88 - Successfully collected and saved employee names.
+2024-11-20 01:59:37 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:37 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:37 INFO  GetWebDriver:99 - Recording stopped.
+2024-11-20 01:59:37 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:37 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:37 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: E, EmployeeName: savina dulvin, UserName: Mohamed
+2024-11-20 01:59:37 INFO  BasePage:45 - Clicked on Admin Icon
+2024-11-20 01:59:38 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-20 01:59:38 INFO  BasePage:57 - Clicked on Add Employee Button
+2024-11-20 01:59:39 INFO  BasePage:64 - Entered User Role
+2024-11-20 01:59:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-20 01:59:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-20 01:59:39 INFO  BasePage:62 - Entered Employee Name: Tony Aldridge
+2024-11-20 01:59:39 INFO  BasePage:70 - Entered Status
+2024-11-20 01:59:39 INFO  BasePage:76 - Enter User Name: Mohamed
+2024-11-20 01:59:39 INFO  BasePage:81 - Entered Password
+2024-11-20 01:59:39 INFO  BasePage:87 - Confirmed Password
+2024-11-20 01:59:39 INFO  BasePage:93 - Clicked Submit Button
+2024-11-20 01:59:39 INFO  GetWebDriver:35 - Completed Enter_Admin_Valid test.
+2024-11-20 01:59:39 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:39 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:39 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: D, EmployeeName: savina dulvin, UserName: Tawfeek
+2024-11-20 01:59:40 INFO  BasePage:45 - Clicked on Admin Icon
+2024-11-20 01:59:41 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-20 01:59:41 INFO  BasePage:57 - Clicked on Add Employee Button
+2024-11-20 01:59:41 INFO  BasePage:64 - Entered User Role
+2024-11-20 01:59:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-20 01:59:41 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-20 01:59:42 INFO  BasePage:62 - Entered Employee Name: Tony Aldridge
+2024-11-20 01:59:42 INFO  BasePage:70 - Entered Status
+2024-11-20 01:59:42 INFO  BasePage:76 - Enter User Name: Tawfeek
+2024-11-20 01:59:42 INFO  BasePage:81 - Entered Password
+2024-11-20 01:59:42 INFO  BasePage:87 - Confirmed Password
+2024-11-20 01:59:42 INFO  BasePage:93 - Clicked Submit Button
+2024-11-20 01:59:42 INFO  GetWebDriver:35 - Completed Enter_Admin_Valid test.
+2024-11-20 01:59:42 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:42 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:42 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Abdel Gafar
+2024-11-20 01:59:43 INFO  BasePage:45 - Clicked on Admin Icon
+2024-11-20 01:59:43 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-20 01:59:44 INFO  BasePage:57 - Clicked on Add Employee Button
+2024-11-20 01:59:44 INFO  BasePage:64 - Entered User Role
+2024-11-20 01:59:44 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-20 01:59:44 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-20 01:59:44 INFO  BasePage:62 - Entered Employee Name: Tony Aldridge
+2024-11-20 01:59:44 INFO  BasePage:70 - Entered Status
+2024-11-20 01:59:44 INFO  BasePage:76 - Enter User Name: Abdel Gafar
+2024-11-20 01:59:44 INFO  BasePage:81 - Entered Password
+2024-11-20 01:59:44 INFO  BasePage:87 - Confirmed Password
+2024-11-20 01:59:44 INFO  BasePage:93 - Clicked Submit Button
+2024-11-20 01:59:44 INFO  GetWebDriver:35 - Completed Enter_Admin_Valid test.
+2024-11-20 01:59:44 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:44 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:44 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Hassan
+2024-11-20 01:59:45 INFO  BasePage:45 - Clicked on Admin Icon
+2024-11-20 01:59:46 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-20 01:59:46 INFO  BasePage:57 - Clicked on Add Employee Button
+2024-11-20 01:59:46 INFO  BasePage:64 - Entered User Role
+2024-11-20 01:59:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-20 01:59:46 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-20 01:59:47 INFO  BasePage:62 - Entered Employee Name: Ranga Akunuri
+2024-11-20 01:59:47 INFO  BasePage:70 - Entered Status
+2024-11-20 01:59:47 INFO  BasePage:76 - Enter User Name: Hassan
+2024-11-20 01:59:47 INFO  BasePage:81 - Entered Password
+2024-11-20 01:59:47 INFO  BasePage:87 - Confirmed Password
+2024-11-20 01:59:47 INFO  BasePage:93 - Clicked Submit Button
+2024-11-20 01:59:47 INFO  GetWebDriver:35 - Completed Enter_Admin_Valid test.
+2024-11-20 01:59:47 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:47 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:47 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: , UserName: 111@1245
+2024-11-20 01:59:48 INFO  BasePage:45 - Clicked on Admin Icon
+2024-11-20 01:59:48 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-20 01:59:48 INFO  BasePage:57 - Clicked on Add Employee Button
+2024-11-20 01:59:49 INFO  BasePage:64 - Entered User Role
+2024-11-20 01:59:49 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-20 01:59:49 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-20 01:59:49 INFO  BasePage:62 - Entered Employee Name: Tony Aldridge
+2024-11-20 01:59:49 INFO  BasePage:70 - Entered Status
+2024-11-20 01:59:49 INFO  BasePage:76 - Enter User Name: 111@1245
+2024-11-20 01:59:49 INFO  BasePage:81 - Entered Password
+2024-11-20 01:59:49 INFO  BasePage:87 - Confirmed Password
+2024-11-20 01:59:49 INFO  BasePage:93 - Clicked Submit Button
+2024-11-20 01:59:49 INFO  GetWebDriver:35 - Completed Enter_Admin_Valid test.
+2024-11-20 01:59:49 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:49 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:49 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: E, EmployeeName: """""""""""", UserName: """"""""""""
+2024-11-20 01:59:50 INFO  BasePage:45 - Clicked on Admin Icon
+2024-11-20 01:59:50 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-20 01:59:51 INFO  BasePage:57 - Clicked on Add Employee Button
+2024-11-20 01:59:51 INFO  BasePage:64 - Entered User Role
+2024-11-20 01:59:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-20 01:59:51 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-20 01:59:51 INFO  BasePage:62 - Entered Employee Name: Ranga Akunuri
+2024-11-20 01:59:51 INFO  BasePage:70 - Entered Status
+2024-11-20 01:59:52 INFO  BasePage:76 - Enter User Name: """"""""""""
+2024-11-20 01:59:52 INFO  BasePage:81 - Entered Password
+2024-11-20 01:59:52 INFO  BasePage:87 - Confirmed Password
+2024-11-20 01:59:52 INFO  BasePage:93 - Clicked Submit Button
+2024-11-20 01:59:52 INFO  GetWebDriver:35 - Completed Enter_Admin_Valid test.
+2024-11-20 01:59:52 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:52 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:59:52 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: E, EmployeeName: Tefa, UserName: 123
+2024-11-20 01:59:52 INFO  BasePage:45 - Clicked on Admin Icon
+2024-11-20 01:59:53 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-20 01:59:53 INFO  BasePage:57 - Clicked on Add Employee Button
+2024-11-20 02:00:03 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:04 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:04 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: E, EmployeeName: Tefa, UserName: 123
+2024-11-20 02:00:14 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:14 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:14 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: E, EmployeeName: savina dulvin, UserName: Mohamed
+2024-11-20 02:00:24 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:24 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:24 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: E, EmployeeName: savina dulvin, UserName: Mohamed
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:34 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 02:00:35 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.

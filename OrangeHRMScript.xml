@@ -1,5 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestScriptAuto" verbose="1" thread-count="3">
+    <listeners>
+        <listener class-name="ReuseTests.AllureLog4jListener">
+        </listener>
+    </listeners>
     <test name="First Test">
         <classes>
             <class name="LoginTest.LoginTest">
@@ -8,11 +12,17 @@
     </test>
     <test name="Second Test">
         <classes>
-            <class name="DirectoryTest.DirectoryTest">
+            <class name="InfoTest.InfoTest">
             </class>
         </classes>
     </test>
     <test name="Third Test">
+        <classes>
+            <class name="DirectoryTest.DirectoryTest">
+            </class>
+        </classes>
+    </test>
+    <test name="fourth Test">
         <classes>
             <class name="AdminTest.AdminTest">
             </class>

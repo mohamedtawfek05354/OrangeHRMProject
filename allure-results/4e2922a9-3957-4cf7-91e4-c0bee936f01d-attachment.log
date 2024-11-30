@@ -1,0 +1,50 @@
+2024-11-20 01:55:19 INFO  GetWebDriver:65 - Log file './logs/application.log' cleaned successfully.
+2024-11-20 01:55:19 DEBUG WebDriverManager:227 - Using WebDriverManager 5.9.2
+2024-11-20 01:55:20 DEBUG ResolutionCache:186 - Resolution chrome=131 in cache (valid until 02:00:42 20/11/2024 EET)
+2024-11-20 01:55:20 DEBUG ResolutionCache:186 - Resolution chrome131=131.0.6778.85 in cache (valid until 01:00:42 21/11/2024 EET)
+2024-11-20 01:55:20 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-20 01:55:20 DEBUG WebDriverManager:1179 - Driver chromedriver 131.0.6778.85 found in cache
+2024-11-20 01:55:20 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-20 01:55:20 INFO  GetWebDriver:19 - Launching Chrome browser with mode: incognito
+2024-11-20 01:55:22 DEBUG GetWebDriver:54 - Browser window maximized
+2024-11-20 01:55:22 DEBUG GetWebDriver:59 - Implicit wait of 10 seconds set for all elements
+2024-11-20 01:55:22 INFO  GetWebDriver:49 - Website loaded successfully in normal mode for Chrome
+2024-11-20 01:55:24 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 DEBUG GetWebDriver:20 - Open login page to enter with invalid credential
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 DEBUG GetWebDriver:20 - Open login page to enter with invalid credential
+2024-11-20 01:55:26 INFO  BasePage:33 - You are in the login page. Expected title: 'Login', Actual title: 'Login'
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:26 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: E, EmployeeName: savina dulvin, UserName: Mohamed
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: E, EmployeeName: savina dulvin, UserName: Mohamed
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: D, EmployeeName: savina dulvin, UserName: Tawfeek
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: D, EmployeeName: savina dulvin, UserName: Tawfeek
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Abdel Gafar
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Abdel Gafar
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Hassan
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-20 01:55:36 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Hassan

@@ -8,33 +8,39 @@ import org.openqa.selenium.WebDriver;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 import static java.lang.invoke.MethodHandles.lookup;
 
 public class GetWebDriver {
+    // List of all possible modes with their respective ChromeOptions arguments
+    public static String[] MODES = {
+            "headless",            // --headless
+            "incognito",           // --incognito
+            "fullscreen",          // --start-fullscreen
+            "disable-extensions",  // --disable-extensions
+            "disable-gpu",         // --disable-gpu (useful for headless mode)
+            "start-maximized",     // --start-maximized
+            "no-sandbox",          // --no-sandbox
+            "remote-debugging-port", // --remote-debugging-port=9222
+            "enable-logging",      // --enable-logging
+            "disable-dev-shm-usage" // --disable-dev-shm-usage (useful for Docker environments)
+    };
     public static int timeout = 10; //to set ImplicitWait for the driver
     private static WebDriver webDriver;
     public static final Logger log = LogManager.getLogger(lookup().lookupClass());
-    public static WebDriver launchBrowser(String browser) throws Exception {
+    public static WebDriver launchBrowser(String browser,String mode) throws Exception {
         initialize_Logging();
         switch (browser.toLowerCase()) {
             case "chrome":
-                webDriver=GetChrome.setupChromeDriver(false);
-                break;
-            case "chrome--headless":
-                webDriver=GetChrome.setupChromeDriver(true);
+                webDriver=GetChrome.setupChromeDriver(mode);
                 break;
             case "firefox":
-                webDriver=GetFirefox.setupFirefoxDriver(false);
-                break;
-            case "firefox--headless":
-                webDriver=GetFirefox.setupFirefoxDriver(true);
+                webDriver=GetFirefox.setupFirefoxDriver(mode);
                 break;
             case "edge":
-                webDriver=GetEdge.setupEdgeDriver(false);
-                break;
-            case "edge--headless":
-                webDriver=GetEdge.setupEdgeDriver(true);
+                webDriver=GetEdge.setupEdgeDriver(mode);
                 break;
             default:
                 log.warn("Unknown browser specified: '{}'", browser);
@@ -47,13 +53,7 @@ public class GetWebDriver {
         Driver.manage().window().maximize();
         log.debug("Browser window maximized");
     }
-    public static void quitBrowser() {
-        if (webDriver != null) {
-            webDriver.quit();
-            webDriver = null;
-            log.info("Browser instance closed");
-        }
-    }
+
     public static void setImplicitWait(WebDriver Driver) {
         Driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout));
         log.debug("Implicit wait of {} seconds set for all elements", timeout);
@@ -67,5 +67,34 @@ public class GetWebDriver {
             log.error("Failed to clean the log file '{}'. Error: {}", logFilePath, e.getMessage(), e);
         }
     }
-
+    public static String getArgumentForMode(String mode) {
+        switch (mode) {
+            case "headless":
+            case "headless mode":
+                return "--headless";
+            case "incognito":
+            case "incognito mode":
+            case "inco":
+                return "--incognito";
+            case "fullscreen":
+                return "--start-fullscreen";
+            case "disable-extensions":
+                return "--disable-extensions";
+            case "disable-gpu":
+                return "--disable-gpu";
+            case "start-maximized":
+                return "--start-maximized";
+            case "no-sandbox":
+                return "--no-sandbox";
+            case "remote-debugging-port":
+            case "remote":
+                return "--remote-debugging-port=9222";
+            case "enable-logging":
+                return "--enable-logging";
+            case "disable-dev-shm-usage":
+                return "--disable-dev-shm-usage";
+            default:
+                return "";
+        }
+    }
 }

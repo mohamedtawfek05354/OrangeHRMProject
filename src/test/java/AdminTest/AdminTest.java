@@ -1,14 +1,18 @@
 package AdminTest;
 
+import ReuseTests.AllureLog4jListener;
 import ReuseTests.BaseTest;
 import ReuseTests.RetryAnalyzer;
 import io.qameta.allure.Description;
 import org.example.AdminPages.AdminPage;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
+
+@Listeners(AllureLog4jListener.class)
 public class AdminTest extends BaseTest {
     AdminPage Admin;
     @Test(priority = 1 , dataProvider = "CSVData",retryAnalyzer = RetryAnalyzer.class)

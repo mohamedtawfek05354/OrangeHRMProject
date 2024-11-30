@@ -1,0 +1,185 @@
+2024-11-30 03:53:34 INFO  GetWebDriver:65 - Log file './logs/application.log' cleaned successfully.
+2024-11-30 03:53:34 DEBUG WebDriverManager:227 - Using WebDriverManager 5.9.2
+2024-11-30 03:53:34 DEBUG ResolutionCache:186 - Resolution chrome=131 in cache (valid until 04:50:03 30/11/2024 EET)
+2024-11-30 03:53:34 DEBUG ResolutionCache:186 - Resolution chrome131=131.0.6778.85 in cache (valid until 03:50:03 01/12/2024 EET)
+2024-11-30 03:53:34 INFO  WebDriverManager:1220 - Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+2024-11-30 03:53:34 DEBUG WebDriverManager:1179 - Driver chromedriver 131.0.6778.85 found in cache
+2024-11-30 03:53:34 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+2024-11-30 03:53:34 INFO  GetWebDriver:19 - Launching Chrome browser with mode: incognito
+2024-11-30 03:53:36 DEBUG GetWebDriver:54 - Browser window maximized
+2024-11-30 03:53:36 DEBUG GetWebDriver:59 - Implicit wait of 10 seconds set for all elements
+2024-11-30 03:53:36 INFO  GetWebDriver:49 - Website loaded successfully in normal mode for Chrome
+2024-11-30 03:53:38 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:40 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:40 DEBUG GetWebDriver:20 - Open login page to enter with invalid credential
+2024-11-30 03:53:40 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:40 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:40 DEBUG GetWebDriver:20 - Open login page to enter with invalid credential
+2024-11-30 03:53:40 INFO  BasePage:33 - You are in the login page. Expected title: 'Login', Actual title: 'Login'
+2024-11-30 03:53:42 INFO  BasePage:46 - You have entered the username and password
+2024-11-30 03:53:42 INFO  GetWebDriver:23 - The login with invalid credential
+2024-11-30 03:53:42 WARN  BasePage:54 - Invalid login attempt: Invalid credentials
+2024-11-30 03:53:42 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:42 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:42 DEBUG GetWebDriver:30 - Open login page
+2024-11-30 03:53:42 INFO  BasePage:33 - You are in the login page. Expected title: 'Login', Actual title: 'Login'
+2024-11-30 03:53:42 INFO  BasePage:46 - You have entered the username and password
+2024-11-30 03:53:42 INFO  GetWebDriver:33 - The login with valid credential
+2024-11-30 03:53:44 INFO  BasePage:62 - Successfully logged in, dashboard title: 'Dashboard'
+2024-11-30 03:53:44 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:44 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:44 INFO  GetWebDriver:105 - Recording stopped.
+2024-11-30 03:53:44 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:44 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:44 INFO  GetWebDriver:18 - Starting the test: Enter_Form
+2024-11-30 03:53:44 INFO  GetWebDriver:22 - Clicking on Info Icon
+2024-11-30 03:53:45 INFO  GetWebDriver:25 - Clicking on Personal Data
+2024-11-30 03:53:46 INFO  GetWebDriver:28 - Entering form data: FirstName=Mohamed, MiddleName=Tawfeek, LastName=Mohamed
+2024-11-30 03:53:47 INFO  GetWebDriver:31 - Clicking Save
+2024-11-30 03:53:47 INFO  GetWebDriver:34 - Test Enter_Form completed successfully
+2024-11-30 03:53:47 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:47 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:47 INFO  GetWebDriver:105 - Recording stopped.
+2024-11-30 03:53:47 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:53:47 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:05 DEBUG ZipPackage:546 - Save core properties part
+2024-11-30 03:54:05 DEBUG ZipPackage:568 - Save content types part
+2024-11-30 03:54:05 DEBUG ZipPackage:572 - Save package relationships
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'docProps/app.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'docProps/core.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'xl/sharedStrings.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'xl/styles.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'xl/workbook.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'xl/worksheets/sheet1.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:568 - Save content types part
+2024-11-30 03:54:05 DEBUG ZipPackage:572 - Save package relationships
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'docProps/app.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'docProps/core.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'xl/sharedStrings.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'xl/styles.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'xl/workbook.xml'
+2024-11-30 03:54:05 DEBUG ZipPackage:586 - Save part 'xl/worksheets/sheet1.xml'
+2024-11-30 03:54:05 INFO  BasePage:88 - Successfully collected and saved employee names.
+2024-11-30 03:54:05 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:05 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:05 INFO  GetWebDriver:105 - Recording stopped.
+2024-11-30 03:54:05 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:05 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:06 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: E, EmployeeName: savina dulvin, UserName: Mohamed
+2024-11-30 03:54:06 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:54:07 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:54:07 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:54:07 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:54:07 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:54:07 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:54:08 INFO  BasePage:62 - Entered Employee Name: Chad Baldwin
+2024-11-30 03:54:18 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:18 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:18 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: E, EmployeeName: savina dulvin, UserName: Mohamed
+2024-11-30 03:54:18 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:54:19 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:54:19 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:54:20 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:54:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:54:20 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:54:20 INFO  BasePage:62 - Entered Employee Name: Thomas Kutty Benny
+2024-11-30 03:54:30 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:30 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:30 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: D, EmployeeName: savina dulvin, UserName: Tawfeek
+2024-11-30 03:54:31 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:54:31 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:54:32 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:54:32 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:54:32 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:54:32 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:54:32 INFO  BasePage:62 - Entered Employee Name: Daniel Abbott
+2024-11-30 03:54:42 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:42 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:42 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: D, EmployeeName: savina dulvin, UserName: Tawfeek
+2024-11-30 03:54:43 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:54:43 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:54:44 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:54:44 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:54:44 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:54:44 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:54:44 INFO  BasePage:62 - Entered Employee Name: Timothy Lewis Amiano
+2024-11-30 03:54:54 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:54 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:54:54 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Abdel Gafar
+2024-11-30 03:54:55 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:54:56 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:54:56 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:54:56 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:54:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:54:56 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:54:56 INFO  BasePage:62 - Entered Employee Name: Ravi M B
+2024-11-30 03:55:07 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:07 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:07 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Abdel Gafar
+2024-11-30 03:55:07 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:55:08 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:55:08 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:55:08 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:55:08 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:55:08 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:55:09 INFO  BasePage:62 - Entered Employee Name: 99N75 425 5TlV
+2024-11-30 03:55:19 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:19 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:19 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Hassan
+2024-11-30 03:55:19 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:55:20 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:55:20 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:55:21 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:55:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:55:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:55:21 INFO  BasePage:62 - Entered Employee Name: Thomas Kutty Benny
+2024-11-30 03:55:31 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:31 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:31 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: savina dulvin, UserName: Hassan
+2024-11-30 03:55:32 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:55:32 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:55:32 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:55:33 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:55:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:55:33 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:55:33 INFO  BasePage:62 - Entered Employee Name: Daniel Abbott
+2024-11-30 03:55:43 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:43 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:43 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: , UserName: 111@1245
+2024-11-30 03:55:44 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:55:44 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:55:45 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:55:45 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:55:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:55:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:55:45 INFO  BasePage:62 - Entered Employee Name: mohamed ahm ashraf
+2024-11-30 03:55:55 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:55 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:55:55 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: A, Status: D, EmployeeName: , UserName: 111@1245
+2024-11-30 03:55:56 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:55:57 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:55:57 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:55:58 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:55:58 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:55:58 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:55:58 INFO  BasePage:62 - Entered Employee Name: 99N75 425 5TlV
+2024-11-30 03:56:08 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:56:08 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:56:08 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: E, EmployeeName: """""""""""", UserName: """"""""""""
+2024-11-30 03:56:09 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:56:09 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:56:10 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:56:10 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:56:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:56:10 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:56:10 INFO  BasePage:62 - Entered Employee Name: Peter Mac Anderson
+2024-11-30 03:56:20 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:56:20 INFO  AllureLog4jListener:35 - Logs are attached with Allure report.
+2024-11-30 03:56:20 INFO  GetWebDriver:21 - Starting Enter_Admin_Valid test with UserRole: E, Status: E, EmployeeName: """""""""""", UserName: """"""""""""
+2024-11-30 03:56:21 INFO  BasePage:44 - Clicked on Admin Icon
+2024-11-30 03:56:21 INFO  BasePage:43 - Admin title is present: Admin
+2024-11-30 03:56:22 INFO  BasePage:56 - Clicked on Add Employee Button
+2024-11-30 03:56:22 INFO  BasePage:63 - Entered User Role
+2024-11-30 03:56:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-11-30 03:56:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-11-30 03:56:22 INFO  BasePage:62 - Entered Employee Name: Thomas Kutty Benny

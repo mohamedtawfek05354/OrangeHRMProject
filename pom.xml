@@ -141,7 +141,11 @@
                             <value>2</value> <!--  to set up number of scenarios to run in parallel execution     -->
                         </property>
                     </properties>
+                    <systemPropertyVariables>
+                        <allure.results.directory>./allure-results</allure.results.directory>
+                    </systemPropertyVariables>
                 </configuration>
+
             </plugin>
 
             <plugin>
@@ -158,13 +162,23 @@
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
                 <version>2.13.0</version>
+                <configuration>
+                </configuration>
                 <executions>
                     <execution>
                         <id>allure-report</id>
                         <phase>post-integration-test</phase>
                         <goals>
                             <goal>report</goal>
+                            <goal>serve</goal>
                         </goals>
+                    </execution>
+                    <execution>
+                        <id>generate-allure-report</id>
+                        <phase>verify</phase>
+                        <configuration>
+                            <outputDirectory>./allure-report</outputDirectory>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
@@ -177,10 +191,10 @@
                 <configuration>
                     <filesets>
                         <fileset>
-                            <directory>Test-Output/Reports/Allure/allure-results</directory>
+                            <directory>./allure-results</directory>
                         </fileset>
                         <fileset>
-                            <directory>Test-Output/Logs</directory> <!-- Clean logs -->
+                            <directory>./Logs</directory> <!-- Clean logs -->
                         </fileset>
                     </filesets>
                 </configuration>
@@ -202,7 +216,7 @@
                             <overwrite>true</overwrite>
                             <resources>
                                 <resource>
-                                    <directory>Test-Output/Reports/Allure/allure-results</directory>
+                                    <directory>./allure-results</directory>
                                     <includes>
                                         <include>**/*</include>
                                     </includes>

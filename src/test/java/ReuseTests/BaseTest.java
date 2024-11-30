@@ -24,6 +24,7 @@ import org.openqa.selenium.WebElement;
 
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.Duration;
@@ -32,35 +33,56 @@ import java.util.List;
 import static java.lang.invoke.MethodHandles.lookup;
 
 
-public class BaseTest {
+public class BaseTest extends GetWebDriver {
     public ScreenRecorderUtil recorderUtil;
     public static WebDriver BaseTestDriver;
-    public static final Logger log = LogManager.getLogger(lookup().lookupClass());
-
+    public ConfigLoader configLoader;
+    public static String usernameInvalid;
+    public static String passwordInvalid;
+    public static String username ;
+    public static String password;
+    public static String fname;
+    public static String mname ;
+    public static String lname;
+    protected String url;
+    protected String browser;
+    protected String mode;
+    public String filepath;
     LoginPage lg;
     @Description("Enter OrangeHRM Demo Website with Username : 'Admin' and Password : 'admin123'")
-    @BeforeSuite
+    @BeforeSuite(dependsOnMethods = "Setup_Configurations")
     public void OpenBrowser() {
-        ConfigLoader configLoader = new ConfigLoader();
-        String url = configLoader.getProperty("url");
-        String browser = configLoader.getProperty("browser");
+         url = configLoader.getProperty("url");
+         browser = configLoader.getProperty("browser");
+         mode=configLoader.getProperty("mode");
         try {
-            BaseTestDriver=GetWebDriver.launchBrowser(browser);
+            BaseTestDriver=GetWebDriver.launchBrowser(browser,mode);
             BaseTestDriver.get(url);
         } catch (Exception e) {
-            log.error("An error occurred while initializing the browser: {}", browser, e);
+            log.error("An error occurred while initializing the browser: {} ", browser, e);
         }
     }
-
-
+    @BeforeSuite
+    public void Setup_Configurations(){
+        configLoader = new ConfigLoader();
+        usernameInvalid = configLoader.getProperty("Invalidusername");
+        passwordInvalid= configLoader.getProperty("Invalidpassword");
+        username = configLoader.getProperty("username");
+        password=configLoader.getProperty("password");
+        fname= configLoader.getProperty("fname");
+        mname = configLoader.getProperty("mname");
+        lname=configLoader.getProperty("lname");
+    }
     @AfterSuite
     public void CloseBrowser(){
-        GetWebDriver.quitBrowser(); // This will close the browser instance only once
+        BaseTestDriver.quit(); // This will close the browser instance only once
+        log.info("Browser instance closed");
     }
     @BeforeClass
     public void RecordScreen(){
         try {
             String TestClass = this.getClass().getSimpleName();
+            filepath=".\\ScreenRecorder\\"+TestClass+".mp4";
             // Create a screen recorder and start recording
             recorderUtil = new ScreenRecorderUtil(".\\ScreenRecorder\\"+TestClass+".mp4");
             // Start recording in a separate thread
@@ -76,6 +98,14 @@ public class BaseTest {
             e.printStackTrace();
         }
     }
+    @AfterClass
+    public void stoprecord() throws Exception {
+        recorderUtil.stopRecording();
+        System.out.println("Recording stopped.");
+        log.info("Recording stopped.");
+
+    }
+
 
     @AfterMethod(description = "Take pic for failed testcases")
     public void failedTestCaseScreen(ITestResult TestCaseResult) throws Exception {
@@ -89,12 +119,7 @@ public class BaseTest {
         }
 
     }
-    @AfterClass
-    public void stoprecord() throws Exception {
-        recorderUtil.stopRecording();
-        System.out.println("Recording stopped.");
-        log.info("Recording stopped.");
-    }
+
     public void scrollPage(int p,int pixels){
         JavascriptExecutor js = (JavascriptExecutor) BaseTestDriver;
         js.executeScript("window.scrollBy("+p+","+pixels+")", "");

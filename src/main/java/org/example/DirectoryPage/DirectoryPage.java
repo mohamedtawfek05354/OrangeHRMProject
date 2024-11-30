@@ -26,8 +26,7 @@ public class DirectoryPage extends BasePage {
     private By DirectoryIcon=By.xpath("//span[text()='Directory']");
     private By EmployeeName=By.xpath("//input[@placeholder='Type for hints...']");
     private By Container_dir=By.xpath("//div[@class='orangehrm-container']");
-
-
+    private By DirectoryContainer=By.cssSelector("div.orangehrm-container");
     //--------------------------------------------------------------------------------------------------------//
     //------------------------------------------FUN-----------------------------------------------------------//
     public void Click_DirectoryIcon(){
@@ -50,12 +49,45 @@ public class DirectoryPage extends BasePage {
         log.info("Collect Employee Names: " + EmployeeNames);
         return EmployeeNames;
     }
-    public void Enter_Excel_Employees() throws IOException {
-        Map<String,List<String>> Data=new HashMap<>();
-        Data.put("Employees Names",collect_Employee());
-        BasePageDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
-        Excel=new ExcelUtilis();
-        Excel.ExcelData(Data,"Employees Names");
+    public void Enter_Excel_Employees() throws IOException, InterruptedException {
+        Map<String, List<String>> data = new HashMap<>();
+        List<String> allEmployeeNames = new ArrayList<>();
+        JavascriptExecutor js = (JavascriptExecutor) BasePageDriver;
+        // Locate the scrollable container
+        WebElement scrollableContainer = BasePageDriver.findElement(DirectoryContainer);
+
+        long lastHeight = (long) js.executeScript("return arguments[0].scrollHeight;", scrollableContainer);
+        while (true) {
+            // Scroll to the bottom of the container
+            js.executeScript("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollableContainer);
+
+            // Wait for new data to load
+            Thread.sleep(1000); // Adjust sleep time based on the data loading speed
+
+            // Collect employee names from the visible container
+            List<WebElement> employeeElements = scrollableContainer.findElements(DirectoryNames);
+            for (WebElement employee : employeeElements) {
+                String employeeName = employee.getText().trim();
+                allEmployeeNames.add(employeeName);
+                System.out.println(allEmployeeNames);
+
+            }
+
+            // Check if we've reached the end of the container
+            long newHeight = (long) js.executeScript("return arguments[0].scrollHeight;", scrollableContainer);
+            if (newHeight == lastHeight) {
+                break;
+            }
+            lastHeight = newHeight;
+        }
+
+        // Save the collected names to an Excel file
+        data.put("Employees Names", allEmployeeNames);
+        Excel = new ExcelUtilis();
+        Excel.ExcelData(data, "Employees Names");
+        log.info("Successfully collected and saved employee names.");
+
+
     }
 
 }

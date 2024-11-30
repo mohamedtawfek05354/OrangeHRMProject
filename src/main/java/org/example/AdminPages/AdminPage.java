@@ -14,28 +14,27 @@ import java.util.List;
 
 public class AdminPage extends BasePage {
 
-
     public AdminPage(WebDriver mydriver) {
         super(mydriver);
     }
-    private By AdminIcon=By.xpath("//a[@href='/web/index.php/admin/viewAdminModule']");
-    private By AddButton=By.xpath("//div[@class='orangehrm-header-container']/button[@data-v-10d463b7]");
-    private By UserRole=By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div/div[1]");
-    private By Status=By.xpath("/html/body/div/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div/div[1]");
-    private By UserName=By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[4]/div/div[2]/input");
-    private By Password=By.cssSelector("input[data-v-1f99f73c][type='password']");
-    private By confirmPass=By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[2]/div/div[2]/input");
-    private By Save=By.cssSelector("Button[type='submit']");
-    private By cancel=By.cssSelector("Button[type='button'][data-v-10d463b7]");
-    private By SearchForEmployeeUserName=By.xpath("//div[@data-v-957b4417]/input[@data-v-1f99f73c]");
-    private By SearchForEmployeeByRole=By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[1]");
-    private By SearchForEmployeeStatus=By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[4]/div/div[2]/div/div/div[1]");
-    private By SearchButton=By.xpath("//*[@type='submit']");
-    private By ResetButton=By.xpath("//*[text()=' Reset ']");
+    private By AdminIcon=By.xpath("//a[contains(@href,'admin')]");
+    private By AddButton=By.xpath("//button[text()=' Add ']");
+    private By UserRole=By.xpath("(//div[text()='-- Select --'])[1]");
+    private By Status=By.xpath("(//div[text()='-- Select --'])[2]");
+    private By UserName=By.xpath("//label[text()='Username']/following::input[1]");
+    private By Password=By.cssSelector("//label[text()='Password']/following::input[1]");
+    private By confirmPass=By.xpath("//label[text()='Confirm Password']/following::input[1]");
+    private By Save=By.xpath("//button[text()=' Save ']");
+    private By cancel=By.xpath("//button[text()=' Cancel ']");
+    private By SearchForEmployeeUserName=By.xpath("//label[text()='Username']/following::input[1]");
+    private By SearchForEmployeeByRole=By.xpath("(//div[text()='-- Select --'])[1]");
+    private By SearchForEmployeeStatus=By.xpath("(//div[text()='-- Select --'])[2]");
+    private By SearchButton=By.xpath("//button[text()=' Search ']");
+    private By ResetButton=By.xpath("//button[text()=' Reset ']");
     private By Message=By.xpath("//*[text()='Success']");
-    private By Delete=By.xpath("//div[@data-v-c423d1fa]/button[@data-v-f5c763eb][@type='button'][1]");
-    private By ConfirmDelete=By.xpath("//*[text()=' Yes, Delete ']");
-    private By edit=By.xpath("//div[@data-v-c423d1fa]/button[@data-v-f5c763eb][@type='button'][2]");
+    private By Delete=By.xpath("//button[@type='button' and .//i[contains(@class,'trash')]][1]");
+    private By ConfirmDelete=By.xpath("//button[text()=' Yes, Delete ']");
+    private By edit=By.xpath("//button[@type='button' and .//i[contains(@class,'pencil-fill')]][1]");
     //--------------------------------------------------------------------------------------------------------------//
     //-----------------------------------------------------Functions-----------------------------------------------//
     @Step("Click on Admin Icon")
